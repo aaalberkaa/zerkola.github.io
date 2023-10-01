@@ -1,0 +1,25 @@
+.txx{
+    color: black;
+}
+section{
+    background-color: rgb(241, 241, 241);
+}
+button{
+    border-color:white ;
+    background-color: rgb(241, 241, 241);
+}
+.aC {
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: aliceblue;
+}
+.NB {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+footer{
+    background-color: azure;
+}
