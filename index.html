@@ -3,112 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/app.css">
-    <title>Моё описание</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <style>
-        
-      .zagalovok{
-      text-align:center;
-      }
-      body {
-  margin: 0;
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-    footer {
-        background-color: PeachPuff;
-
-}
-
-h2 {
-  border-bottom: 2px solid #e3e3e3;
-}
-.grip{
-    background-color: PapayaWhip;  
-}
-
-main {
-  width: 900px;
-  margin: auto;
-}
-.cardik{
-    background-color: Moccasin;
-    float: left;
-}
-    </style>
+    <title>Магазин зеркал</title>
+    <link rel="stylesheet" href="zer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body class="grip">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary grip">
-        <div class="container-fluid grip">
-            <img src="https://sun6-20.userapi.com/impf/kErGxmEtz6qvsLj1dSzp0gTmwKyzWz8lkhwQ5g/TS--_WNZ6Pk.jpg?size=604x544&quality=96&sign=4d226f80ba6e8fd519ed35ee23821659&type=album" width="50px">
-          <a class="navbar-brand" href="#">Зеркала.net</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Контакты
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">вк</a></li>
-                  <li><a class="dropdown-item" href="#">не вк</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">номер телефона к примеру</a></li>
+<body style="background-color: whitesmoke;" class="txx">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header class="NB">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="ZERkalo.html">Название</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Информация
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#ONas" onclick="changeBackground()">О нас</a></li>
+                      <li><a class="dropdown-item" href="#Primeri" onclick="changeBackground1()">Примеры работ</a></li>
+                      <li><a class="dropdown-item" href="#Cena" onclick="changeBackground2()"> Цены</a></li>
+                      <li><a class="dropdown-item" href="#Kontact" onclick="changeBackground3()">Контакты</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<main>
-    <h1 class="zagalovok">Имя компании</h1>
-    <h2 class="zagalovok">доп тест</h2>
-    <h3>кто вы?</h3>
-    <nav>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section id="главная">
+            <h2>Добро пожаловать в наш магазин зеркал!</h2>
+            <p id="ONas">Мы предлагаем широкий выбор зеркал под заказ различных форм, размеров и стилей. У нас вы найдете идеальное зеркало для вашего дома или офиса.</p>
+        </section >
+
+        <section id="ON">
+            <h2 >О нас</h2>
+            <p>Мы - команда профессионалов и поклонников прекрасного! Магазин зеркал - это наша страсть, наша любовь и наше призвание.</p>
+            <p>Мы начали свою работу с одной целью - предложить настоящее искусство, которое можно повесить на стену. В нашем магазине вы найдете широкий ассортимент зеркал различных стилей и форм, выполненных вручную нами.</p>
+            <p id="Primeri">Наша миссия - помочь вам создать великолепную и уютную обстановку в вашем доме или офисе. Мы предлагаем зеркала разных форм и размеров, чтобы удовлетворить самые изысканные вкусы наших клиентов. Будь то элегантное зеркало в раме из драгоценного дерева или современное зеркало с оригинальной формой, вы сможете найти идеальное решение у нас.</p>
+        </section>
+
+        <section id="PR">
+          <h2>Примеры работ</h2>
+          <table style="margin: 0 auto;">
+            <tr style="text-align: center;">
+             <td colspan="3"><img src="0.jpg" width="400" name="slide_show"></td>
+            </tr>
+            <tr>
+             <td style="text-align: right;"><button><a href="javascript:chgImg(-1)" class="aC">Предыдущая</a></button></td>
+             <td style="text-align: center;"><button><a href="javascript:auto()" class="aC">Старт/Стоп</a></button></td>
+             <td style="text-align: left;"><button><a href="javascript:chgImg(1)" class="aC">Следующая</a></button></td>
+            </tr>
+           </table>
+        </section> 
+
+        <section id="Cena">
+          <h2>Цены</h2>
+          <p>Договорная от 20тыс. до 40 тыс</p>
+        </section>
+
+        <section id="Kontact">
+            <h2>Контакты</h2>
+            <a href="https://t.me/V_iskas" target="_blank"><img src="https://w7.pngwing.com/pngs/402/10/png-transparent-telegram-logo-scalable-graphics-icon-logo-blue-angle-triangle.png" width="50px"></a>
+            <a href="https://vk.com/v_iskas" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968835.png" width="50px"></a>
+        </section>
+    </main>
+
+    <footer>      
+        <p>Свяжитесь с нами для получения дополнительной информации или задайте вопросы:</p>
         <ul>
-          <li>перечисляем </li>
-          <li>перечисляем</li>
-          <li>перечисляем</li>
-          <li>перечисляем</li>
-          <li>перечисляем</li>     
+            <li>Телефон: 123-456-789</li>
+            <li>Email: info@example.com</li>
+            <li>Адрес: ул. Примерная, 123, Город</li>
         </ul>
-    </nav>
-    <h3>доп услуги типо устоновка там</h3>
-    <nav>
-        <ul>
-            <li>перечисляем</li>
-            <li>перечисляем</li>  
-        </ul>
-    </nav>
-    <h2>Ассортимент</h2>
-    <div class="card cardik" style="width: 18rem;">
-        <img src="https://sun6-20.userapi.com/impf/kErGxmEtz6qvsLj1dSzp0gTmwKyzWz8lkhwQ5g/TS--_WNZ6Pk.jpg?size=604x544&quality=96&sign=4d226f80ba6e8fd519ed35ee23821659&type=album"  class="card-img-top" alt="типо зеркало">
-        <div class="card-body">
-          <h5 class="card-title">имя</h5>
-          <p class="card-text">описание</p>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">стоимость, но когда тыкаешь переходит в лс например, ссылка крч</a>
-        </div>
-      </div>
-      <div class="card cardik" style="width: 18rem;">
-        <img src="https://sun6-20.userapi.com/impf/kErGxmEtz6qvsLj1dSzp0gTmwKyzWz8lkhwQ5g/TS--_WNZ6Pk.jpg?size=604x544&quality=96&sign=4d226f80ba6e8fd519ed35ee23821659&type=album"  class="card-img-top" alt="типо зеркало">
-        <div class="card-body">
-          <h5 class="card-title">имя</h5>
-          <p class="card-text">описание</p>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">стоимость, но когда тыкаешь переходит в лс например, ссылка крч</a>
-        </div>
-      </div>
-      <div class="card cardik" style="width: 18rem;">
-        <img src="https://sun6-20.userapi.com/impf/kErGxmEtz6qvsLj1dSzp0gTmwKyzWz8lkhwQ5g/TS--_WNZ6Pk.jpg?size=604x544&quality=96&sign=4d226f80ba6e8fd519ed35ee23821659&type=album"  class="card-img-top" alt="типо зеркало">
-        <div class="card-body">
-          <h5 class="card-title">имя</h5>
-          <p class="card-text">описание</p>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">стоимость, но когда тыкаешь переходит в лс например, ссылка крч</a>
-        </div>
-      </div> 
-    </body>
-</main>
+        <p>&copy; 2023 Магазин зеркал</p>
+    </footer>
+    <script type="text/javascript">
+      all_images = new Array (
+      "0.jpg",
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg");
+      var ImgNum = 0;
+      var ImgLength = all_images.length - 1;
+      var delay = 3000;
+      var lock = false;
+      var run;
+      
+      function chgImg(direction) {
+       if (document.images) {
+        ImgNum = ImgNum + direction;
+        if (ImgNum > ImgLength) { ImgNum = 0; }
+        if (ImgNum < 0) { ImgNum = ImgLength; }
+        document.slide_show.src = all_images[ImgNum];
+       }
+      }
+      
+      function auto() {
+       if (lock == true) {
+        lock = false;
+        window.clearInterval(run);
+       }
+       else if (lock == false) {
+        lock = true;
+        run = setInterval("chgImg(1)", delay);
+       }
+      }
+      </script>
+
+      <script type="text/javascript">
+        auto();
+      </script>
+
+      <script type="text/javascript">
+        function changeBackground() {
+          const fragment = document.getElementById("ON");
+          const originalColor = fragment.style.backgroundColor;
+
+           // Изменение цвета фона фрагмента на короткое время
+          fragment.style.backgroundColor = "black";
+
+           // Восстановление исходного цвета фона фрагмента после некоторого времени
+          setTimeout(function() {
+            fragment.style.backgroundColor = originalColor;
+          }, 200);
+        }
+
+        function changeBackground1() {
+          const fragment = document.getElementById("PR");
+          const originalColor = fragment.style.backgroundColor;
+
+           // Изменение цвета фона фрагмента на короткое время
+          fragment.style.backgroundColor = "black";
+
+           // Восстановление исходного цвета фона фрагмента после некоторого времени
+          setTimeout(function() {
+            fragment.style.backgroundColor = originalColor;
+          }, 200);
+        }
+        
+        function changeBackground2() {
+          const fragment = document.getElementById("Cena");
+          const originalColor = fragment.style.backgroundColor;
+
+           // Изменение цвета фона фрагмента на короткое время
+          fragment.style.backgroundColor = "black";
+
+           // Восстановление исходного цвета фона фрагмента после некоторого времени
+          setTimeout(function() {
+            fragment.style.backgroundColor = originalColor;
+          }, 200);
+        }
+
+        function changeBackground3() {
+          const fragment = document.getElementById("Kontact");
+          const originalColor = fragment.style.backgroundColor;
+
+           // Изменение цвета фона фрагмента на короткое время
+          fragment.style.backgroundColor = "black";
+
+           // Восстановление исходного цвета фона фрагмента после некоторого времени
+          setTimeout(function() {
+            fragment.style.backgroundColor = originalColor;
+          }, 200);
+        }
+      </script>
+</body>
 </html>
